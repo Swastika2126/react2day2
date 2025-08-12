@@ -1,14 +1,11 @@
-import React from 'react';
-import './App.css';
-import ParentComponent from './Components/ParentComponent';
+import Clock from './Clock';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Prop Drilling Demo</h1>
-      <ParentComponent />
+    <div>
+      <h1>Welcome to My React App</h1>
+      <Clock />
     </div>
   );
 }
 
-export default App;
